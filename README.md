@@ -1,5 +1,7 @@
 # Example of gRPC Fallback with Cloud Tasks
 
+Currently, it is not safe because security feature is not implemented.
+
 ```
 $ go run google.golang.org/grpc/examples/helloworld/greeter_server
 
