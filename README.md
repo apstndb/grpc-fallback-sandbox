@@ -5,7 +5,7 @@ Currently, it is not safe because security feature is not implemented.
 ```
 $ go run google.golang.org/grpc/examples/helloworld/greeter_server
 
-$ fallback-proxy -address "localhost:50051"
+$ go run github.com/googleapis/grpc-fallback-go/cmd/fallback-proxy -address "localhost:50051"
 
 $ ngrok http 1337
 
@@ -14,5 +14,5 @@ $ go run ./ --baseurl=https://12345678.ngrok.io --project=project --location=asi
 
 ## Reference
 
-https://googleapis.github.io/HowToRPC.html#grpc-fallback-experimental
-
+- https://googleapis.github.io/HowToRPC.html#grpc-fallback-experimental
+- https://github.com/googleapis/grpc-fallback-go
